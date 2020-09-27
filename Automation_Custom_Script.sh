@@ -46,7 +46,7 @@ python3 -m pip install Pillow spidev numpy
 
 
 echo ""
-echo "--------   Install scripts and start services"
+echo "--------   Copy scripts, install and start services"
 echo ""
 
 cp -r /boot/browniepi /root/
