@@ -11,4 +11,5 @@ The proper wifi info needs to be setup in the dietpi-wifi file.
 
 The Automation_Custom_Script.sh gets run during the first boot and install of diet pi. It installs the necessary packages and dependencies and does the setup.
 
-The VNC stuff is very fiddly and took me a while to get working
+The VNC stuff is very fiddly and took me a while to get working. I forgot the specifics but it had to do with the PI sharing its GL overlay which is what is being used by raspistill. Maybe looking into RPi Cam Control is a better route.
+
