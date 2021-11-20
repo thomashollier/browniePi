@@ -6,3 +6,9 @@ The idea is to have a set of diet pi config files that install a os on a raspber
 
 
 Contained here are the necessary python files and LCD software, as well as the dietpi files that worked when I made them. The 
+
+The proper wifi info needs to be setup in the dietpi-wifi file.
+
+The Automation_Custom_Script.sh gets run during the first boot and install of diet pi. It installs the necessary packages and dependencies and does the setup.
+
+The VNC stuff is very fiddly and took me a while to get working
